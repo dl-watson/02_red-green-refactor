@@ -17,8 +17,6 @@ describe("getName", () => {
 });
 
 /* 
-create your function, use bracket notation to get the objects name property
-pass tests and commit
 refactor, use dot notation to get the objects name
 tests stay green, commit
 refactor, destructure to get the objects name

@@ -5,7 +5,7 @@ const character = { _id: "5cf5679a915ecad153ab68c9", name: "Aang" };
 // getName(character); // returns "Aang"
 
 const getName = (obj) => {
-  return obj["name"];
+  return obj.name;
 };
 
 module.exports = { getName };
