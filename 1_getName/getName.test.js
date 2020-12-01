@@ -15,10 +15,3 @@ describe("getName", () => {
     expect(name).toEqual("Aang");
   });
 });
-
-/* 
-refactor, destructure to get the objects name
-tests stay green, commit
-refactor, destructure function parameters and return name
-tests stay green, commit
-*/
