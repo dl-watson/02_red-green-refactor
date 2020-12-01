@@ -8,10 +8,3 @@ describe("capitalizeAndFilter", () => {
     expect(output).toEqual(["SPOT", "ROVER", "BINGO"]);
   });
 });
-
-/*
-Write a test
-create a function, use a for loop to get test to pass
-green, commit
-refactor, use array methods to instead of a for loop
-*/
