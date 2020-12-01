@@ -1,5 +1,3 @@
-const input = ["spot", "rover", "bingo", "fred"];
-
 const capitalizeAndFilter = (input) => {
   return input
     .filter((word) => word.charAt(0) !== "f")
@@ -7,5 +5,3 @@ const capitalizeAndFilter = (input) => {
 };
 
 module.exports = { capitalizeAndFilter };
-
-console.log(capitalizeAndFilter(input));
