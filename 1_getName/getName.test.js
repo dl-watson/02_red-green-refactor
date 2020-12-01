@@ -7,6 +7,13 @@ describe("getName", () => {
 
     expect(name).toEqual("spot");
   });
+
+  it("works with any object containing a name property", () => {
+    const character = { _id: "5cf5679a915ecad153ab68c9", name: "Aang" };
+    const name = getName(character);
+
+    expect(name).toEqual("Aang");
+  });
 });
 
 /* 
