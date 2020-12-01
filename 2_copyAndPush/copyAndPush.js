@@ -2,8 +2,9 @@ const numbers = [1, 2, 3];
 const val = 4;
 
 const copyAndPush = (arr, val) => {
-  arr.push(val);
-  return arr;
+  let newarr = [...arr];
+  newarr.push(val);
+  return newarr;
 };
 
 module.exports = { copyAndPush };
